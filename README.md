@@ -5,3 +5,9 @@
 * [David](https://github.com/boostha)
 * [Jesse](https://github.com/JesseThadi)
 * [Lucas](https://github.com/lucas-cq)
+
+## Rules
+* Comment commits
+* Pull before commit just in case
+* Ask questions
+* Conflict will be handled by a duel
