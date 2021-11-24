@@ -11,3 +11,7 @@
 * Pull before commit just in case
 * Ask questions
 * Conflict will be handled by a duel
+
+## Repo & Netlify
+* [Repo](https://github.com/lucas-cq/cpnt200-final)
+* [Netlify]()
