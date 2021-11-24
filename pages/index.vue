@@ -1,8 +1,8 @@
 <template>
-<div>
-  <Navigation/>
-  <Footer/>
-</div>
+  <div>
+    <Navigation/>
+    <Footer/>
+  </div>
 </template>
 
 <style lang="postcss">
