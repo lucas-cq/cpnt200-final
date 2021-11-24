@@ -1,5 +1,8 @@
 <template>
-
+<div>
+  <Navigation/>
+  <Footer/>
+</div>
 </template>
 
 <style lang="postcss">
