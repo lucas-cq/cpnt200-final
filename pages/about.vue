@@ -38,22 +38,22 @@ export default {
         {
           member: "Lucas",
           role: "Backend Dev",
-          desc: "temp"
+          pic: "assets/images/lucas-github.jpg"
         },
         {
           member: "Raj",
           role: "Frontend Dev",
-          desc: "temp"
+          pic: "assets/images/raj-github.jpg"
         },
         {
           member: "David",
           role: "Designer",
-          desc: "temp"
+          pic: "assets/images/david-github.jpg"
         },
         {
           member: "Jesse",
           role: "Content Manager",
-          desc: "temp"
+          pic: "assets/images/jesse-github.png"
         }
       ]
     }
