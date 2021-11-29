@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-Poppins">
     <Navigation />
     <section class="flex justify-around flex-wrap mx-auto bg-indigo-light">
       <article class="mx-20 mb-40 mt-52">
