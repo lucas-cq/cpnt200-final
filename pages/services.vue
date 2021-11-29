@@ -41,15 +41,15 @@ export default {
         },
         {
          title: "Backend Development",
-         para: "I can't even close my eyes 🎶"
+         para: ""
         },
         {
          title: "Graphic Design",
-         para: "and I don't why 🎶"
+         para: ""
         },
         {
          title: "SEO",
-         para: "Guess I don't like suprises"
+         para: ""
         }
       ]
     }
