@@ -1,9 +1,9 @@
 <template>
   <div>
     <!--Nav Here-->
-    <section class="flex justify-around flex-wrap bg-indigo-light">
+    <section class="flex justify-around flex-wrap mx-auto bg-indigo-light">
       <article class="m-20">
-      <h1 class="text-5xl mb-10">About Us</h1>
+      <h1 class="text-5xl mb-10 text-purple-med"><strong>About Us</strong></h1>
         <p class="text-2xl tracking-wide leading-relaxed">We are a passion driven team looking to <br>make a difference
           in the web <br> development industry.
         </p>
@@ -12,21 +12,22 @@
           <nuxt-img src="assets/images/clipboard.png" />
         </div>
     </section>
-    <!--Footer Here-->
     <section class="bg-indigo-dark">
+      <h2 class="text-center pt-20 text-4xl text-purple-med"><strong>Our Team</strong></h2>
       <div class="team-box">
         <Teamcard v-for="team in teams" :key="team.id" :info="team" />
       </div>
     </section>
+    <!--Footer Here-->
   </div>
 </template>
 
-<style scoped lang="postcss">
+<style lang="postcss">
 .img-box {
   @apply w-96
 }
 .team-box {
-
+  @apply flex justify-around flex-wrap mx-60
 }
 </style>
 
@@ -36,22 +37,22 @@ export default {
     return {
       teams: [
         {
-          member: "Lucas",
+          member: "Lucas Cummings",
           role: "Backend Dev",
           pic: "assets/images/lucas-github.jpg"
         },
         {
-          member: "Raj",
+          member: "Raj Hunjan",
           role: "Frontend Dev",
           pic: "assets/images/raj-github.jpg"
         },
         {
-          member: "David",
+          member: "David Ha",
           role: "Designer",
           pic: "assets/images/david-github.jpg"
         },
         {
-          member: "Jesse",
+          member: "Jesse Thadi",
           role: "Content Manager",
           pic: "assets/images/jesse-github.png"
         }

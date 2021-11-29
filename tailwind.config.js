@@ -6,6 +6,9 @@ module.exports = {
       indigo: {
         light: '#cecbf0',
         dark: '#bdbadf'
+      },
+      purple: {
+        med: '#be00b5'
       }
     },
   },
