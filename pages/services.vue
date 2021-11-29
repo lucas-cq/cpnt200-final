@@ -8,7 +8,7 @@
         </p>
       </article>
         <div class="img-box">
-          <nuxt-img src="assets/images/linechart.png" />
+          <img src="assets/images/linechart.png" />
         </div>
     </section>
     <section class="bg-indigo-dark">
