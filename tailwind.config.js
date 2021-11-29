@@ -10,7 +10,10 @@ module.exports = {
       purple: {
         med: '#be00b5',
         light: '#D278A1'
-      }
+      },
+
+      black: '#000000',
+      white: '#ffffff',
     },
 
     fontFamily: {
@@ -19,7 +22,7 @@ module.exports = {
 
     container: {
       center: true,
-      padding: '2rem',
+      padding: '1rem',
     }
   },
   variants: {
