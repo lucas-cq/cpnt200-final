@@ -1,17 +1,18 @@
 <!-- https://www.youtube.com/watch?v=Q2gQ20Q-4Pk -->
 <!-- https://www.youtube.com/watch?v=ehuMq4JiYgQ -->
 <template>
-  <nav class="container flex justify-between items-center py-4 absolute w-full">
-    <div>
-      <nuxt-link to="/" class="font-bold text-4xl">Vexus</nuxt-link>
-    </div>
-
-    <ul class="flex gap-14 text-xl items-center">
-      <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/about">About</nuxt-link>
-      <nuxt-link to="/blog">Blog</nuxt-link>
-      <nuxt-link to="/services">Services</nuxt-link>
-      <nuxt-link to="/contact" class="bg-purple-light px-4 py-1 rounded">Contact</nuxt-link>
-    </ul>
-  </nav>
+  <header class="absolute w-full">
+    <nav class="container flex justify-between items-center py-4">
+      <div>
+        <nuxt-link to="/" class="font-bold text-4xl">Vexus</nuxt-link>
+      </div>
+      <ul class="flex gap-14 text-xl items-center">
+        <nuxt-link to="/">Home</nuxt-link>
+        <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/blog">Blog</nuxt-link>
+        <nuxt-link to="/services">Services</nuxt-link>
+        <nuxt-link to="/contact" class="bg-purple-light px-4 py-1 rounded">Contact</nuxt-link>
+      </ul>
+    </nav>
+  </header>
 </template>
