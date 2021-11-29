@@ -2,7 +2,7 @@
   <div class="member-box">
   <figure class="member-card">
     <nuxt-img class="w-40 rounded-full" :src="info.pic" />
-      <h3 class="text-2xl text-center mt-4">{{ info.member }}</h3>
+      <h3 class="text-xl text-center mt-4">{{ info.member }}</h3>
       <figcaption class="text-center text-lg">{{ info.role }}</figcaption>
   </figure>
   </div>
