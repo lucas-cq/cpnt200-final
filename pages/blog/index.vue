@@ -2,7 +2,7 @@
   <v-main>
     <h1>Articles</h1>
     <div v-for="post in posts" :key="post.slug">
-      <nuxt-link :to="post.slug">{{ post.title }}</nuxt-link>
+      <nuxt-link :to="`blog/${post.slug}`">{{ post.title }}</nuxt-link>
     </div>
   </v-main>
 </template>
