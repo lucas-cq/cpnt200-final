@@ -1,8 +1,8 @@
 <template>
   <div>
-    <!--Nav Here-->
+    <Navigation />
     <section class="flex justify-around flex-wrap mx-auto bg-indigo-light">
-      <article class="m-20">
+      <article class="mx-20 mb-40 mt-52">
       <h1 class="text-5xl mb-10 text-purple-med"><strong>About Us</strong></h1>
         <p class="text-2xl tracking-wide leading-relaxed">We are a passion driven team looking to <br>make a difference
           in the web <br> development industry.
@@ -18,13 +18,13 @@
         <Teamcard v-for="team in teams" :key="team.id" :info="team" />
       </div>
     </section>
-    <!--Footer Here-->
+    <Footer />
   </div>
 </template>
 
 <style lang="postcss">
 .img-box {
-  @apply w-96
+  @apply w-96 mt-32
 }
 .team-box {
   @apply flex justify-around flex-wrap mx-60
