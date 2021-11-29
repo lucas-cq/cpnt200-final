@@ -1,6 +1,13 @@
 <template>
-  <div>
+  <div class="font-Poppins">
     <Navigation/>
+    <main>
+      <div>
+        <h1>The Creative Agency for <span>Innovative</span> Digital Experiences</h1>
+        <nuxt-link to="/contact">Let's Talk</nuxt-link>
+      </div>
+    </main>
+
     <Footer/>
   </div>
 </template>
