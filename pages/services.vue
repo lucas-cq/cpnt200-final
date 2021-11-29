@@ -34,19 +34,22 @@
 export default {
   data() {
     return {
-      information: [
+      services: [
         {
-         title: "",
-         para: ""
+         title: "UX/UI design",
+         para: "test"
         },
         {
-         
+         title: "Backend Development",
+         para: "I can't even close my eyes 🎶"
         },
         {
-          
+         title: "Graphic Design",
+         para: "and I don't why 🎶"
         },
         {
-          
+         title: "SEO",
+         para: "Guess I don't like suprises"
         }
       ]
     }
