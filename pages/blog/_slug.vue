@@ -2,9 +2,9 @@
   <div class="font-Poppins">
     <Navigation />
     <section class="flex justify-start flex-wrap mx-auto bg-indigo-light">
-    <article class="mx-40 mb-40 mt-52">
-      <h1 class="text-4xl underline">{{ post.title }}</h1>
-      <h2 class="text-2xl">{{ post.description }}</h2>
+    <article class="ml-40 mr-auto mb-40 mt-52">
+      <h1 class="text-4xl underline mb-4">{{ post.title }}</h1>
+      <h2 class="text-2xl mb-6">{{ post.description }}</h2>
       <nuxt-content class="text-xl" :document="post" />
     </article>
     </section>
