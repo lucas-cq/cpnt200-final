@@ -2,9 +2,9 @@
 <div>
     <Navigation/>
     <section class="flex justify-around flex-wrap mx-auto bg-indigo-light">
-      <article class="m-20">
+      <article class="mx-20 mb-40 mt-52">
       <h1 class="text-5xl mb-10 text-purple-med"><strong>Services</strong></h1>
-        <p class="text-2xl tracking-wide leading-relaxed">Something about our services
+        <p class="text-2xl tracking-wide leading-relaxed"> Our team specializes in a variety <br> of services to best suit <br>our clients needs
         </p>
       </article>
         <div class="img-box">
@@ -37,7 +37,7 @@ export default {
       services: [
         {
          title: "UX/UI design",
-         para: "test"
+         para: "We have excellent UX/UI "
         },
         {
          title: "Backend Development",
