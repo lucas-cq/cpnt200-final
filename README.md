@@ -6,12 +6,19 @@
 * [Jesse](https://github.com/JesseThadi)
 * [Lucas](https://github.com/lucas-cq)
 
-## Rules
+## Repo & Netlify
+* [Repo](https://github.com/lucas-cq/cpnt200-final)
+* [Netlify](https://dazzling-mccarthy-aa0dd3.netlify.app/)
+
+### Rules
 * Comment commits
 * Pull before commit just in case
 * Ask questions
 * Conflict will be handled by a duel
 
-## Repo & Netlify
-* [Repo](https://github.com/lucas-cq/cpnt200-final)
-* [Netlify](https://dazzling-mccarthy-aa0dd3.netlify.app/)
+### Attributions
+* [Blog Picture](https://iconscout.com/3d/pencil-case-4329680)
+* [Contact Picture](https://iconscout.com/3d/chatting-3078220)
+* [Services Picture](https://iconscout.com/3d/line-chart-growth-3814121)
+* [About Us Picture](https://iconscout.com/3d/kindle-3985334)
+* [Hero Page Picture](https://iconscout.com/3d/responsive-device-3985340)
