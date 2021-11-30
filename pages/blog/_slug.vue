@@ -1,10 +1,14 @@
 <template>
-  <div>
-    <article>
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.description }}</p>
-      <nuxt-content :document="post" />
+  <div class="font-Poppins">
+    <Navigation />
+    <section class="flex justify-start flex-wrap mx-auto bg-indigo-light">
+    <article class="mx-40 mb-40 mt-52">
+      <h1 class="text-4xl underline">{{ post.title }}</h1>
+      <h2 class="text-2xl">{{ post.description }}</h2>
+      <nuxt-content class="text-xl" :document="post" />
     </article>
+    </section>
+    <Footer />
   </div>
 </template>
 
