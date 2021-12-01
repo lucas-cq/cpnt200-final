@@ -1,7 +1,7 @@
 <template>
   <section class="card-box">
     <div class="member-card">
-      <h3 class="text-2xl text-center mt-4">{{ info.title }}</h3>
+      <h3 class="text-2xl text-center mt-4 mb-7">{{ info.title }}</h3>
       <p class="text-center text-lg">{{ info.para }}</p>
     </div >
   </section>
