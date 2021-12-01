@@ -1,15 +1,17 @@
 <template>
   <div class="font-Poppins">
     <Navigation />
-    <section class="flex justify-around flex-wrap mx-auto bg-indigo-light">
-      <article class="mx-20 mb-40 mt-52">
-        <h1 class="text-5xl mb-10 text-purple-med"><strong>Articles</strong></h1>
-        <p class="text-2xl tracking-wide leading-relaxed">A collection of our finest articles written by nerds <br>like you.</p>
-      </article>
-        <div class="img-box">
-          <nuxt-img src="assets/images/pencil-case.png" />
-        </div>
-    </section>
+    <main class="h-screen bg-indigo-light">
+      <section class="container flex justify-between flex-wrap items-center h-full">
+        <article class="w-1/2">
+          <h1 class="text-6xl leading-normal text-purple-med"><strong>Articles</strong></h1>
+          <p class="text-3xl leading-normal">A collection of our finest articles written by nerds <br>like you.</p>
+        </article>
+          <div>
+            <nuxt-img src="assets/images/pencil-case.png" sizes="sm:100vw md:50vw lg:30vw" />
+          </div>
+      </section>
+    </main>
     <div class="article-box">
         <div class="article-li" v-for="post in posts" :key="post.slug">
           <nuxt-link class="text-4xl hover:text-purple-med" :to="`blog/${post.slug}`">{{ post.title }}</nuxt-link>
@@ -27,10 +29,6 @@
 
 .article-li {
   @apply my-20 pl-64
-}
-
-.img-box {
-  @apply w-96 mt-32
 }
 
 </style>
