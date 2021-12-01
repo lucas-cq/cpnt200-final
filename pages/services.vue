@@ -48,7 +48,7 @@ export default {
         },
         {
          title: "SEO",
-         para: "We'll make sure that your website is ranked up top with other websites and user friendly"
+         para: "We'll make sure that your website is ranked up top with other websites and is user friendly"
         }
       ]
     }
