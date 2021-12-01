@@ -36,19 +36,19 @@ export default {
       services: [
         {
          title: "UX/UI design",
-         para: "We have excellent UX/UI designs so that you have a website you're proud to show off"
+         text: "We have excellent UX/UI designs so that you have a website you're proud to show off"
         },
         {
          title: "Backend Development",
-         para: "Amazing backend development to ensure you're website has the best performance"
+         text: "Amazing backend development to ensure you're website has the best performance"
         },
         {
          title: "Graphic Design",
-         para: "We have great graphic design for your wonderful website"
+         text: "We have great graphic design for your wonderful website"
         },
         {
          title: "SEO",
-         para: "We'll make sure that your website is ranked up top with other websites and is user friendly"
+         text: "We'll make sure that your website is ranked up top with other websites and is user friendly"
         }
       ]
     }
