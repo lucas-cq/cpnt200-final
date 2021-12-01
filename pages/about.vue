@@ -14,7 +14,7 @@
           </div>
       </div>
     </section>
-    <section class="bg-indigo-dark h-screen">
+    <section class="bg-indigo-dark">
       <div class="flex flex-col items-center justify-center gap-8">
         <h2 class="text-center pt-20 text-6xl text-purple-med border-b-2 border-black w-max"><strong>Our Team</strong></h2>
         <div class="team-box">

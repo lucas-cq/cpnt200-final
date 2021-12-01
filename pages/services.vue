@@ -2,7 +2,7 @@
   <div class="font-Poppins relative">
     <Navigation/>
       <section class="bg-indigo-light h-screen">
-        <div class="container h-full flex justify-between items-center flex-wrap">
+        <div class="container h-full flex justify-between items-center">
           <article class="w-1/2">
             <h1 class="font-bold text-6xl leading-normal text-purple-med">Services</h1>
             <p class="text-3xl leading-normal"> Our team specializes in a variety of services to best suit our customers needs</p>
@@ -12,9 +12,9 @@
           </div>
         </div>
       </section>
-      <section class="h-screen bg-indigo-dark flex flex-col items-center justify-center">
+      <section class="bg-indigo-dark flex flex-col items-center justify-center py-8">
         <h2 class="font-bold text-6xl leading-normal text-purple-med border-b-2 border-black w-max">What We Offer</h2>
-        <div class="container flex gap-8 my-20">
+        <div class="container flex flex-wrap lg:flex-nowrap gap-8">
           <ServiceCard class="service-box" v-for="service in services" :key="service.id" :info="service" />
         </div>
       </section>
