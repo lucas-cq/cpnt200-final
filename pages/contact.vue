@@ -20,20 +20,20 @@
       </div>
 
       <div class="flex gap-8 my-20">
-        <div class="border-0 bg-indigo-light p-12 text-center flex flex-col gap-4 rounded-md">
+        <div class="service-box">
           <h2 class="text-2xl font-bold">Location</h2>
           <p>100 10th Ave SW</p>
           <p>Calgary, Alberta</p>
         </div>
-        <div class="border-0 bg-indigo-light p-12 text-center flex flex-col gap-4 rounded-md">
+        <div class="service-box">
           <h2 class="text-2xl font-bold">Phone</h2>
           <p>(403) 888-8888</p>
         </div>
-        <div class="border-0 bg-indigo-light p-12 text-center flex flex-col gap-4 rounded-md">
+        <div class="service-box">
           <h2 class="text-2xl font-bold">Email</h2>
           <p>info@vexus.com</p>
         </div>
-        <div class="border-0 bg-indigo-light p-12 text-center flex flex-col gap-4 rounded-md">
+        <div class="service-box">
           <h2 class="text-2xl font-bold">Hours</h2>
           <p>Monday-Friday</p>
           <p>8am - 5pm</p>
@@ -44,3 +44,9 @@
     <Footer />
   </div>
 </template>
+
+<style lang="postcss">
+.service-box {
+  @apply border-0 bg-indigo-light p-12 text-center flex flex-col gap-4 rounded-md
+}
+</style>

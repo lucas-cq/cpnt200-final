@@ -1,19 +1,21 @@
 <template>
-  <div>
+  <div class="font-Poppins relative">
     <Navigation/>
-      <section class="flex justify-around flex-wrap mx-auto bg-indigo-light">
-        <article class="mx-20 mb-40 mt-52">
-          <h1 class="text-5xl mb-10 text-purple-med"><strong>Services</strong></h1>
-          <p class="text-2xl tracking-wide leading-relaxed"> Our team specializes in a variety <br> of services to best suit <br> our customers needs</p>
-        </article>
-        <div class="img-box">
-          <img src="assets/images/linechart.png" />
+      <section class="bg-indigo-light h-screen">
+        <div class="container h-full flex justify-between items-center flex-wrap">
+          <article class="w-1/2">
+            <h1 class="font-bold text-6xl leading-normal text-purple-med">Services</h1>
+            <p class="text-3xl leading-normal"> Our team specializes in a variety of services to best suit our customers needs</p>
+          </article>
+          <div>
+            <img src="assets/images/linechart.png" width="750" />
+          </div>
         </div>
       </section>
-      <section class="bg-indigo-dark">
-        <h2 class="text-center pt-20 text-4xl text-purple-med"><strong>What We Offer</strong></h2>
-        <div class="service-box">
-          <ServiceCard v-for="service in services" :key="service.id" :info="service" />
+      <section class="h-screen bg-indigo-dark flex flex-col items-center justify-center">
+        <h2 class="font-bold text-6xl leading-normal text-purple-med border-b-2 border-black w-max">What We Offer</h2>
+        <div class="container flex gap-8 my-20">
+          <ServiceCard class="service-box" v-for="service in services" :key="service.id" :info="service" />
         </div>
       </section>
     <Footer/>
@@ -21,11 +23,8 @@
 </template>
 
 <style lang="postcss">
-.img-box {
-  @apply w-96
-}
 .service-box {
-  @apply flex justify-around flex-wrap mx-60
+  @apply border-0 bg-indigo-light p-12 text-center flex flex-col gap-4 rounded-md
 }
 </style>
 
