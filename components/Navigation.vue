@@ -1,5 +1,3 @@
-<!-- https://www.youtube.com/watch?v=Q2gQ20Q-4Pk -->
-<!-- https://www.youtube.com/watch?v=ehuMq4JiYgQ -->
 <template>
   <header class="absolute w-full">
     <nav class="container flex justify-between items-center py-4">
