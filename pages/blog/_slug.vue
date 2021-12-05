@@ -5,7 +5,7 @@
     <article class="ml-40 mr-auto mb-40 mt-36">
       <h1 class="text-4xl underline mb-4">{{ post.title }}</h1>
       <h2 class="text-2xl mb-6">{{ post.description }}</h2>
-      <img :src="post.banner" height="600" />
+      <nuxt-img :src="post.banner" height="600" />
       <nuxt-content class="text-xl leading-10 w-1/2 mt-8" :document="post" />
     </article>
     </section>
