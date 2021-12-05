@@ -1,7 +1,7 @@
 <template>
   <div class="font-Poppins">
     <Navigation />
-    <section class="flex justify-center flex-wrap bg-indigo-light">
+    <section class="flex justify-start items-center flex-wrap bg-indigo-light">
     <article class="ml-40 mr-auto mb-40 mt-36">
       <h1 class="text-4xl underline mb-4">{{ post.title }}</h1>
       <h2 class="text-2xl mb-6">{{ post.description }}</h2>
