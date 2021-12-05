@@ -3,7 +3,8 @@
     <article>
       <h2>{{ post.title }}</h2>
       <p>{{ post.description }}</p>
-      <nuxt-content :document="post" />
+      <nuxt-img :src="`assets/${post.banner}`" height="600" />
+      <nuxt-content class="text-xl leading-10 w-1/2" :document="post" />
     </article>
   </div>
 </template>
